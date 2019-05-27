@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://localhost:8000/contacts/update/5 -->
+<html lang="en" class="gr__localhost"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Edit ram_files/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Edit ram_files/main.css">
+
+    <!-- Fonts & Icons -->
+    <link href="./Edit ram_files/css" rel="stylesheet">
+    <link rel="stylesheet" href="./Edit ram_files/all.css">
+    <title>
+    
+Edit ram
+
+    </title>
+  </head>
+  <body data-gr-c-s-loaded="true">
+    <!-- Navbar -->
+
+    <nav>
+      <a class="logo" href="http://localhost:8000/">
+        <i class="fas fa-user-circle"></i>&nbsp;Contacts
+      </a>
+      <p class="feature-link m-0 p-0">
+      <a href="http://localhost:8000/contacts/create" class="mr-4 text-white">
+      <i class="fas fa-plus"></i> &nbsp; Add Contact
+      </a>
+      </p>
+      <form class="form-inline my-2" action="http://localhost:8000/search/" method="GET">
+      
+        <input class="form-control search-box" type="search" placeholder="Find contacts..." name="search_term">
+      </form>
+    </nav>
+    <!-- Navbar ends -->
+    
+<div class="container">
+    <h2 class="heading font-weight-light text-center">Update ram</h2>
+    <hr>
+</div>
+<div class="container w-25 card p-4 mt-4">
+<form action="http://localhost:8000/contacts/update/5" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="csrfmiddlewaretoken" value="UKAS3tpCKh86LMbFsng8x6KcanGf61jCOw1kaHjPttR8XvyZF3rKImbQzITTCtu6">
+
+
+<div id="div_id_name" class="form-group"> <label for="id_name" class="col-form-label  requiredField">
+                Name<span class="asteriskField">*</span> </label> <div class=""> <input type="text" name="name" value="ram" maxlength="20" class="textinput textInput form-control" required="" id="id_name"> </div> </div> <div id="div_id_email" class="form-group"> <label for="id_email" class="col-form-label  requiredField">
+                Email<span class="asteriskField">*</span> </label> <div class=""> <input type="email" name="email" value="ram@gmail.com" maxlength="100" class="emailinput form-control" required="" id="id_email"> </div> </div> <div id="div_id_phone" class="form-group"> <label for="id_phone" class="col-form-label  requiredField">
+                Phone<span class="asteriskField">*</span> </label> <div class=""> <input type="number" name="phone" value="64646466474" class="numberinput form-control" required="" id="id_phone"> </div> </div> <div id="div_id_info" class="form-group"> <label for="id_info" class="col-form-label  requiredField">
+                Info<span class="asteriskField">*</span> </label> <div class=""> <input type="text" name="info" value="friend" maxlength="30" class="textinput textInput form-control" required="" id="id_info"> </div> </div> <div id="div_id_gender" class="form-group"> <label for="id_gender" class="col-form-label  requiredField">
+                Gender<span class="asteriskField">*</span> </label> <div class=""> <select name="gender" class="select form-control" required="" id="id_gender"> <option value="">---------</option> <option value="male" selected="">Male</option> <option value="female">Female</option>
+
+</select> </div> </div> <div id="div_id_image" class="form-group"> <label for="id_image" class="col-form-label ">
+                Image
+            </label> <div class=""> <input type="file" name="image" accept="image/*" class="clearablefileinput" id="id_image"> </div> </div>
+
+<input type="submit" value="Create" class="w-100 text-white text-center my-2 btn btn-info">
+
+</form>
+</div>
+
+    <!-- Main Section ends-->
+
+    <!-- footer -->
+    <footer class="mt-4 p-2">
+      <p class="text-center p-1 m-0">© My Contacts 2019</p>
+    </footer>
+    <!-- footer ends -->
+  
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
